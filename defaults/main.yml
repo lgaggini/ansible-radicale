@@ -1,0 +1,20 @@
+---
+# radicale packages to be installed
+radicale_packages:
+  - python3-radicale
+
+# radicale config home
+radicale_home: /etc/radicale
+
+# radicale user
+radicale_user: radicale
+radicale_group: radicale
+
+# radicale listen address
+radicale_listen: 0.0.0.0:5232
+
+# radicale file system folder
+radicale_filesystem_folder: /srv/pim
+
+# radicale log
+radicale_log: /var/log/radicale
